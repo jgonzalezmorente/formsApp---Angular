@@ -51,11 +51,8 @@ export class DynamicPageComponent {
         case 'minlength':
           return `Mínimo ${ errors['minlength'].requiredLength } caracteres.`;
       }
-
     }
-
     return null;
-
   }
 
   onAddToFavorites(): void {
